@@ -1,4 +1,4 @@
-# AndroidBootPkg 
+# Reboot2AndroidPkg 
 An UEFI application to set a specific value at a certain address to trigger a reboot to Android. Boot image needs to be patched to support this.
 
 ## Prerequisites
@@ -55,4 +55,4 @@ make ARCH=AARCH64 BUILD_TYPE=RELEASE
 ## Output
 
 The built EFI application will be available at:
-`Build/AndroidBootPkg/$(BUILD_TYPE)_$(TOOLCHAIN)/$(ARCH)/C0DEADDED.efi`
+`Build/Reboot2AndroidPkg/$(BUILD_TYPE)_$(TOOLCHAIN)/$(ARCH)/Reboot2Android.efi`

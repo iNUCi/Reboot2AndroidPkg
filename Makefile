@@ -12,7 +12,7 @@ EDK_TOOLS_PATH ?= $(EDK2_PATH)/BaseTools
 PYTHON_COMMAND ?= python3
 
 # Package-specific settings
-PACKAGE_NAME = AndroidBootPkg
+PACKAGE_NAME = Reboot2AndroidPkg
 PACKAGE_PATH = $(EDK2_PATH)/$(PACKAGE_NAME)
 OUTPUT_DIR = Build/$(PACKAGE_NAME)/$(BUILD_TYPE)_$(TOOLCHAIN)/$(ARCH)
 

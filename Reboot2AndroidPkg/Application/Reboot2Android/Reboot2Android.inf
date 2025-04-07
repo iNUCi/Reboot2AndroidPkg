@@ -1,17 +1,17 @@
 [Defines]
   INF_VERSION                    = 0x00010005
-  BASE_NAME                      = C0DEADDED
+  BASE_NAME                      = Reboot2Android
   FILE_GUID                      = 7f558c4e-3f9d-4f42-8890-969a6d24c3d0
   MODULE_TYPE                    = UEFI_APPLICATION
   VERSION_STRING                 = 1.0
   ENTRY_POINT                    = UefiMain
 
 [Sources]
-  C0DEADDED.c
+  Reboot2Android.c
 
 [Packages]
   MdePkg/MdePkg.dec
-  AndroidBootPkg/AndroidBootPkg.dec
+  Reboot2AndroidPkg/Reboot2AndroidPkg.dec
 
 [LibraryClasses]
   UefiApplicationEntryPoint
